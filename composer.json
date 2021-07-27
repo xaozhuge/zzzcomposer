@@ -1,0 +1,21 @@
+{
+    "name": "xaozhuge/zzzcomposer",
+    "description": "test publish package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xaozhuge",
+            "email": "xaozhuge@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php":  ">=5.5",
+    },
+    "autoload": {
+        "psr-4": {
+            "xaozhuge\\zzzcomposer\\": "src/"
+        }
+    }
+}
